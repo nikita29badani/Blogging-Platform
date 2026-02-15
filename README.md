@@ -19,3 +19,31 @@ Responsive grid (3 posts per row)
 Server-side rendering using EJS
 
 Organized folder structure
+
+Tech Stack
+
+Frontend
+
+HTML5
+
+CSS3
+
+EJS
+
+Backend
+
+Node.js
+
+Express.js
+
+Templating Engine
+
+EJS
+
+Version Control
+
+Git & GitHub
+
+Deployment
+
+Render
