@@ -47,3 +47,18 @@ Git & GitHub
 Deployment
 
 Render
+
+Installation & Setup
+1. Clone the repository
+git clone https://github.com/your-username/blogging-platform.git
+cd blogging-platform
+2. Install dependencies
+npm install
+3. Run the server
+node index.js
+
+or
+
+npm start
+4. Open in browser
+http://localhost:3000
