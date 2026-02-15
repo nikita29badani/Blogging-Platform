@@ -1,0 +1,100 @@
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(to right,#f5efe6,#efe6d8);
+}
+
+.container{
+display:flex;
+min-height:100vh;
+}
+
+.left{
+width:25%;
+position:fixed;
+left:0;
+top:0;
+height:100vh;
+background:url('/images/createimg.png');
+background-size:cover;
+background-position:center;
+}
+
+.right{
+margin-left:20%;
+width:80%;
+padding:60px 80px;
+box-sizing:border-box;
+}
+
+h1{
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  color: #5a3a2e;
+  
+}
+
+.form-box{
+width:100%;
+max-width:100%;
+}
+
+
+label{
+display:block;
+margin-top:25px;
+margin-bottom:8px;
+color:#5a3a2e;
+font-size:18px;
+}
+
+
+input,textarea{
+width:100%;
+padding:18px;
+border-radius:12px;
+border:none;
+font-size:16px;
+background:white;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+textarea{
+height:300px;
+resize:none;
+}
+
+button {
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  width: 20%;
+  height: 5%;
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  color: #4a2c2a;
+  font-size: 18px;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+  transition: all 0.3s ease;
+}
+
+.publish{
+  background-color: white;
+  color: #5a3a2e;
+  border: 2px solid #5a3a2e;
+}
+
+.publish:hover {
+  background-color: #3e2723;
+  color: white;
+}
+
+
+
+

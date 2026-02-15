@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/create.css">
+    <title>Create</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left"></div>
+         <div class="right">
+            <h1>Publish your story now!</h1>
+
+        <form class="form-box" method="POST" action="/publish">
+
+        <label for="Title">Title:</label>
+        <input type="text" placeholder="Enter Title" name="title">
+
+        <label for="Body">Body of Blog:</label>
+        <textarea type="text" placeholder="Start your writing here..." name="body"></textarea>
+
+        <label for="author">Author:</label>
+        <input type="text" placeholder="Enter the name of author" name="author">
+        
+         <a href="/view">
+        <button type="submit" class="publish">Publish Blog!</button></a>
+    </form>
+    </div>
+   
+</div>
+</body>
+</html>

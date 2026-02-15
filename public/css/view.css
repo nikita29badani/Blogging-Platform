@@ -1,0 +1,112 @@
+
+body{
+margin:0;
+font-family:'Quicksand', sans-serif;
+background:linear-gradient(to right,#e8dfd6,#d6c6b4);
+}
+
+.container{
+display:flex;
+min-height:100vh;
+}
+
+.posts-section{
+width:70%;
+padding:40px;
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap:30px;
+align-content:start;
+}
+
+
+
+.image-section{
+width:30%;
+background-image:url("/images/createimg.png");
+background-size:cover;
+background-position:center;
+}
+
+.heading{
+font-family:'Dancing Script', cursive;
+color:#5a3e2b;
+font-size:38px;
+margin-bottom:20px;
+padding: auto;
+text-align:center;
+grid-column: 1 / -1;
+}
+
+.post-card{
+background:rgba(255,255,255,0.6);
+padding:25px;
+margin-bottom:25px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+
+}
+
+.post-card:hover{
+transform: translateY(-5px);
+box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+
+.post-title{
+font-size:26px;
+color:#4a2f1d;
+margin-bottom:10px;
+}
+
+.post-body{
+font-size:17px;
+color:#3e2a1f;
+margin-bottom:15px;
+line-height:1.6;
+}
+
+.post-author{
+font-style:italic;
+color:#6b4a34;
+margin-bottom:20px;
+}
+
+.btn-group{
+display:flex;
+gap:15px;
+}
+
+.edit-btn{
+text-decoration:none;
+padding:10px 20px;
+background:#c8a27a;
+color:white;
+border-radius:8px;
+transition:0.3s;
+}
+
+.edit-btn:hover{
+background:#a67c52;
+}
+
+.delete-btn{
+text-decoration:none;
+padding:10px 20px;
+background:#c94c4c;
+color:white;
+border-radius:8px;
+transition:0.3s;
+}
+
+.delete-btn:hover{
+background:#a83232;
+}
+
+.empty{
+font-size:20px;
+color:#5a3e2b;
+text-align:center;
+margin-top:50px;
+}
+  

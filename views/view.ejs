@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Stories</title>
+<link rel="stylesheet" href="/css/view.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="posts-section">
+
+<h1 class="heading">Your Published Stories are here!</h1>
+
+<% if(postk.length===0){ %>
+
+<p class="empty">No stories published yet.</p>
+
+<% } %>
+
+<% postk.forEach(function(post, index){ %>
+
+<div class="post-card">
+
+<h2 class="post-title"><%= post.ptitle %></h2>
+
+<p class="post-body"><%= post.pbody %></p>
+
+<p class="post-author">— <%= post.pauthor %></p>
+
+<div class="btn-group">
+<a href="/edit/<%= index %>">
+<button type="submit" class="edit-btn">Edit</button></a>
+
+<form action="/delete/<%= index %>" method="POST">
+<button type="submit" class="delete-btn">Delete</button></form>
+
+</div>
+
+</div>
+
+<% }) %>
+
+</div>
+
+<div class="image-section"></div>
+
+</div>
+
+</body>
+</html>
